@@ -1,4 +1,5 @@
-name = str(input("What's your name:"))
+# name = str(input("What's your name:"))
+name = input()
 
 if name == "Johnny":
     print("Hello, my love!")
