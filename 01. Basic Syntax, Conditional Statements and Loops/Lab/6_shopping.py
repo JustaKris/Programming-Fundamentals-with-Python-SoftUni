@@ -1,11 +1,12 @@
-budget = int(input("What is our budget:"))
-price = input("How much it costs:")
+budget = int(input())
+price = input()
+
 total_costs = 0
 while price != "End":
     total_costs += int(price)
     if total_costs > budget:
-        print("You went overdraft!")
+        print("You went in overdraft!")
         break
-    price = input("How much it costs:")
+    price = input()
 else:
     print("You bought everything needed.")

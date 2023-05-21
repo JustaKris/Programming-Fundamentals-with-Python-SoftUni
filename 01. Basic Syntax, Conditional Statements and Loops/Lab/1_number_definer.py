@@ -1,4 +1,4 @@
-number = int(input("Give me a number:"))
+number = float(input())
 
 if number == 0:
     print("zero")

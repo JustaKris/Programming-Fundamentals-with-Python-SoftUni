@@ -1,4 +1,4 @@
-stars = int(input("Give me a number of stars:"))
+stars = int(input())
 
 for i in range(1, stars+1):
     for j in range(0, i):
