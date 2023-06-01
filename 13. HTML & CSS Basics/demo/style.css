@@ -1,0 +1,23 @@
+body {
+    background-color: cornsilk;
+    font-family: Arial;
+}
+
+h1, h2 {
+    font-sizeL 24px;
+    text-align: center;
+    margin: 0;
+}
+
+.fancy-text {
+    font-size: italic;
+    text-decoration: underline;
+}
+
+p.fancy-text {
+    color: brown;
+}
+
+#specofoc-paragraph {
+    background-color: pink;
+}
