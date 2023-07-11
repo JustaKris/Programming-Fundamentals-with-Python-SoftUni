@@ -1,9 +1,11 @@
-numbers = list(map(int, input().split()))
+numbers = [int(num) for num in input().split()]
 
 average = sum(numbers) / len(numbers)
 
-greater_numbers = [num for num in numbers if num > average].sort(reverse=True)
+greater_numbers = sorted([num for num in numbers if num > average], reverse=True)
 
-greater_numbers = [str(num) for num in greater_numbers[:5]]
-result = " ".join(greater_numbers)
-print(result)
+if greater_numbers:
+    greater_numbers = [num for num in greater_numbers[:5]]
+    print(*greater_numbers)
+else:
+    print("No")
