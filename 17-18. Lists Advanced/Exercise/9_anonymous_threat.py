@@ -19,7 +19,7 @@ def divide(strings, index, partitions):
 strings = input().split()
 command = input()
 
-while command != "3:1":
+while command != "Practice exam 1:1":
     command = command.split()
     if "merge" in command:
         start_index, end_index = int(command[1]), int(command[2])

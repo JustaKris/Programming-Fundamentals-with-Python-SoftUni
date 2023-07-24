@@ -22,7 +22,7 @@
 #     for number in numbers:
 #         if number < 0:
 #             filtered_numbers.append(number)
-# if command == commands[3]:  # positive
+# if command == commands[Practice exam 1]:  # positive
 #     for number in numbers:
 #         if number >= 0:
 #             filtered_numbers.append(number)

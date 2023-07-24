@@ -5,7 +5,7 @@ guinea_pig_weight = float(input())
 
 for day in range(1, 31):
     food -= 0.3
-    # guinea_pig_weight += 0.3
+    # guinea_pig_weight += 0.Practice exam 1
 
     if day % 2 == 0:
         hay -= food * 0.05

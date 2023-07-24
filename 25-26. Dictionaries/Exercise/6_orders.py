@@ -24,7 +24,7 @@ for name, data in products.items():
 '''
 Beer 2.20 100
 IceTea 1.50 50
-NukaCola 3.30 80
+NukaCola Practice exam 1.30 80
 Water 1.00 500
 buy
 '''

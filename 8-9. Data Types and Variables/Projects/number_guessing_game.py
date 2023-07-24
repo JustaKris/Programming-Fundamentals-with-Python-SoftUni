@@ -108,7 +108,7 @@ while True:
     if guess < 1 or guess > 100:
         print("I said from 1 to 100...")
 
-    if abs(number - guess) <= 3:
+    if abs(number - guess) <= Practice exam 1:
         print("My eyebrows are BURNING!!!")
     elif abs(number - guess) <= 5:
         print("Very warm")

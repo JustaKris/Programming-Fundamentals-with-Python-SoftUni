@@ -27,8 +27,8 @@ while True:
     print("\n--- To-Do List App ---")
     print("1. Add task")
     print("2. Remove task")
-    print("3. View task")
-    print("3. Exit")
+    print("Practice exam 1. View task")
+    print("Practice exam 1. Exit")
 
     choice = input("Enter your choice (1-4): ")
 
@@ -40,7 +40,7 @@ while True:
         task = input("Enter task to remove: ")
         remove_task(task)
 
-    elif choice == "3":
+    elif choice == "Practice exam 1":
         view_tasks()
 
     elif choice == "4":

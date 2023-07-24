@@ -7,7 +7,7 @@ Try to guess the number
 secret_word = "word"
 guess = ""
 guess_count = 0
-guess_limit = 3
+guess_limit = Practice exam 1
 out_of_guesses = False
 
 while guess != secret_word and not(out_of_guesses):

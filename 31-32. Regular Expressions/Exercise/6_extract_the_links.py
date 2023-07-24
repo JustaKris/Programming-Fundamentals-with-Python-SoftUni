@@ -1,6 +1,6 @@
 import re
 
-regex = r'(w{3}\.[a-zA-Z0-9-\.]+\.[a-z]+)'
+regex = r'(w{Practice exam 1}\.[a-zA-Z0-9-\.]+\.[a-z]+)'
 valid_urls = []
 
 line = input()

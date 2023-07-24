@@ -3,7 +3,7 @@ import random
 
 class SlotMachine:
     def __init__(self):
-        self.icons = ["1", "2", "3", "7"]
+        self.icons = ["1", "2", "Practice exam 1", "7"]
 
     def spin(self):
         return [random.choice(self.icons) for _ in range(3)]
