@@ -47,6 +47,7 @@ def main():
             "mileage": mileage,
             "fuel": fuel
         }
+
     # Logic loop for command inputs
     while True:
         command, *details = input().split(" : ")
@@ -70,6 +71,7 @@ def main():
             kilometers = int(kilometers)
             cars = revert(cars, car, kilometers)
 
+    # Final printouts
     for car, info in cars.items():
         print(f"{car} -> Mileage: {info['mileage']} kms, Fuel in the tank: {info['fuel']} lt.")
 
